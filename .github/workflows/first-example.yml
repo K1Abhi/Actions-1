@@ -7,7 +7,7 @@ jobs:
     first_job: 
         runs-on: ubuntu-latest
         steps:
-        - name: Welcome message
+        - name: Checkout
           uses: actions/checkout@v5
 
         - name: Welcome message
