@@ -15,7 +15,7 @@ jobs:
           run: cowsay -f bunny "Abhishek loves you my Bunny my BUBU my Vaishu! 🐇💖" >> cuddle.txt
 
         - name: Test file exists 
-          run: grep -i "dragon" dragon.txt
+          run: grep -i "cuddle" cuddle.txt
 
         - name: Read file
           run: cat cuddle.txt
