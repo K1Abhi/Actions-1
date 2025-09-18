@@ -12,3 +12,25 @@ jobs:
           run: |
             chmod +x ascii-script.sh
             ./ascii-script.sh
+
+    ascii_job_2:
+        runs-on: ubuntu-latest
+        steps:
+        - name: Checkout Repo
+          uses: actions/checkout@v5
+
+        - name: Executing shell script 
+          run: |
+            chmod +x ascii-script.sh
+            ./ascii-script.sh
+
+    ascii_job_3:
+        runs-on: ubuntu-latest
+        steps:
+        - name: Checkout Repo
+          uses: actions/checkout@v5
+
+        - name: Executing shell script 
+          run: |
+            chmod +x ascii-script.sh
+            ./ascii-script.sh
