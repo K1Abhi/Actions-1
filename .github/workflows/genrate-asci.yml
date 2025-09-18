@@ -12,13 +12,13 @@ jobs:
           run: sudo apt-get install cowsay -y 
 
         - name: Execute Cowsay Program 
-          run: cowsay -f dragon "Run for cover, I am DRAGON....RAWR" >> dragon.txt
+          run: cowsay -f bunny "Abhishek loves you my Bunny my BUBU my Vaishu! 🐇💖" >> cuddle.txt
 
         - name: Test file exists 
           run: grep -i "dragon" dragon.txt
 
         - name: Read file
-          run: cat dragon.txt
+          run: cat cuddle.txt
 
         - name: Checkout Repo files
           run: ls
