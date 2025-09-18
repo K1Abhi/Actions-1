@@ -10,7 +10,7 @@ jobs:
         - name: Checkout
           uses: actions/checkout@v5
 
-        - name: Welcome message
+        - name: Welcome message and Read 
           run: |
             echo "My first Github Actions Job"
             ls -ltr
