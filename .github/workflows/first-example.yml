@@ -16,4 +16,5 @@ jobs:
             ls -ltr
             cat README.md
 
-
+        - name: Generate ASCII artwork
+          run: cowsay -f dragon "Hello from GitHub Actions" > dragon.txt
